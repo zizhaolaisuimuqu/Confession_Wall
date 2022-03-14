@@ -9,7 +9,8 @@ html {
 
 body {
     overflow: auto;
-    background-image: linear-gradient(to bottom left, rgb(247, 243, 246), #ad95cc)
+    background-image: linear-gradient(to bottom left, rgb(247, 243, 246), #ad95cc);
+    background-attachment:fixed;
 }
 
 h1 {color:rgba(27, 68, 204, 0.459);
