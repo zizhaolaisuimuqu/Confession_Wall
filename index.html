@@ -11,14 +11,20 @@
     </head>
     <body>
         <div class='title'>
-            <h1>佛山四中表白墙</h1>
-            <p>本墙的评论均为匿名，请大家文明用语。</p>
+          <h1>佛山四中表白墙</h1>
+          <p>本墙的评论均为匿名，请大家文明用语。</p>
+        </div>
+        <div class="statistics">
+          <p>访墙人数<span id="/Confession_Wall/" class="waline-visitor-count"></span>。</p>
+          <p><span id="</Confession_Wall/>" class="waline-comment-count"></span>个墙印</p>
         </div>
         <div id="waline"></div>
         <script>
           Waline({
             el: '#waline',
             serverURL: 'https://reply-area-z-s-blog-fpkoos1es-zizhaolaisuimuqu.vercel.app/',
+            avatar: 'mp',
+            visitor: true,
             emoji: [
               'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
               'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
